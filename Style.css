@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=GFS+Didot&display=swap');
+
+
+body {
+    font-family: "GFS Didot", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+:root {
+    --red: #d01c28;
+    --gray: #2e2e2e;
+}
+
+*{
+    margin: 0;
+}
+
+.zara{
+    max-width: 72px;
+    max-height: 42px;
+}
+
+button {
+    all: unset;
+    padding: 6px 16px;
+    height: 32px;
+   background: var(--red);
+   color: white;
+    font-weight: 500;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1280px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: 72px;
+    align-items: center;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 28px;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    height: calc(100vh-72px);
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20ppx;
+}
+
+.hero h1{
+    font-weight: 800;
+    font-size: 76px;
+    line-height: 90px;
+}
+
+.hero p{
+    font-weight: 600;
+    columns: var(--gray);
+    max-width: 400px;
+}
+
+
+
+.hero-btn{
+    display: flex;
+    gap: 40px;
+}
+ .hero-btn button {
+    font-size: 24px;
+ }
+
+.secondary-btn{
+    background: transparent;
+    color: var(--gray);
+    border: 1px solid var(--gray);
+
+}
+
+.shopping p{
+    font-size: 14px;
+    margin-top: 8px;
+}
+
+.brand-icons{
+    margin-top: 8px;
+    display: flex;
+    gap: 16px;
+}
+
